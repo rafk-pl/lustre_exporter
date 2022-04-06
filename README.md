@@ -7,7 +7,12 @@
 
 [Prometheus](https://prometheus.io/) exporter for [Lustre](https://www.lustre.org/) metrics.  
 
-Supported Lustre version is: 2.12.
+## Supported Versions
+
+Latest versions tested:  
+
+* Golang 1.17
+* Lustre 2.12
 
 ## Getting
 
