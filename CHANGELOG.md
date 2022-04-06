@@ -1,5 +1,10 @@
 # Change Log
 
+## [v2.1.4](https://github.com/GSI-HPC/lustre_exporter/releases/tag/v2.1.4) (2022-04-06)
+- Separate sudoers file.
+- Add logging to file.
+- Update metrics for Lustre version 2.12 [\#7](https://github.com/GSI-HPC/lustre_exporter/issues/7)
+
 ## [v2.1.3](https://github.com/GSI-HPC/lustre_exporter/releases/tag/2.1.3) (2022-01-24)
 - Add Docker build container
 - Remove depencency to Promu
@@ -8,10 +13,10 @@
 - Skip jobstat blocks with empty job\_id field set
 - Simplify regex for capturing jobids
 
-## [v2.1.2](https://github.com/GSI-HPC/lustre_exporter/releases/tag/2.1.2) (2021-12-10)
+## [v2.1.2](https://github.com/GSI-HPC/lustre_exporter/releases/tag/v2.1.2) (2021-12-10)
 - Update jobid regex pattern for less restrivtive parsing
 
-## [v2.1.1](https://github.com/GSI-HPC/lustre_exporter/releases/tag/2.1.1) (2021-11-04)
+## [v2.1.1](https://github.com/GSI-HPC/lustre_exporter/releases/tag/v2.1.1) (2021-11-04)
 - Add new LCTL source
 - Implement changelog processing
 - Add function for capturing job stats with regex
