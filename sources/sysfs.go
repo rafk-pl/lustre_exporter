@@ -73,7 +73,6 @@ func (s *lustreSysSource) generateOSTMetricTemplates(filter string) {
 			{"lock_timeouts", "lock_timeout", "Number of lock timeouts", s.counterMetric, false, extended},
 			{"contended_locks", "lock_contended", "Number of contended locks", s.gaugeMetric, false, extended},
 			{"contention_seconds", "lock_contention_seconds", "Time in seconds during which locks were contended", s.gaugeMetric, false, extended},
-
 			{"pool/granted", "lock_granted", "Number of granted locks", s.gaugeMetric, false, extended},
 			{"pool/grant_plan", "lock_grant_plan", "Number of planned lock grants per second", s.gaugeMetric, false, extended},
 			{"pool/grant_rate", "lock_grant_rate", "Lock grant rate", s.gaugeMetric, false, extended},
