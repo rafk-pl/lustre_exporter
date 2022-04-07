@@ -11,7 +11,7 @@
 
 Latest versions tested:  
 
-* Golang 1.17
+* Golang 1.18
 * Lustre 2.12
 
 ## Getting
