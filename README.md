@@ -10,7 +10,7 @@
 ## Supported Versions
 
 * Golang 1.16 or higher
-* Lustre 2.12 - higher version not tested yet
+* Lustre 2.12 - higher versions not tested yet.
 
 ## Getting
 
